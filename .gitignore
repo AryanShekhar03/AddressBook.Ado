@@ -1,0 +1,5 @@
+.vs
+bin/
+obj/
+AddressBook.ADO.csproj
+AddressBook.ADO.sln
