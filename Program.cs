@@ -7,6 +7,11 @@ namespace AddressBook.ADO
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to AddressBook");
+
+            AddressBookRepo addressBookRepo = new AddressBookRepo();
+            AddressBookModel addressBookModel = new AddressBookModel();
+
+            addressBookRepo.DatabaseConnection();
         }
     }
 }
