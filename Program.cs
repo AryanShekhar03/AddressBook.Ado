@@ -12,6 +12,7 @@ namespace AddressBook.ADO
             AddressBookModel addressBookModel = new AddressBookModel();
 
             addressBookRepo.DatabaseConnection();
+            addressBookRepo.GetAllContact();
         }
     }
 }
